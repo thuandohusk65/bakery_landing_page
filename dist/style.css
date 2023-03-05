@@ -63,7 +63,7 @@ img {
   content: "";
   height: 10px;
   width: 10%;
-  background-color: #f54749;
+  background-color: #702791;;
   position: absolute;
   left: 0;
   top: 100%;
@@ -97,7 +97,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 99;
-  height: 128px;
+  height: 100px;
   transition: height 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 header.shrink {
@@ -220,6 +220,7 @@ header.active {
   text-shadow: 0px 4px 13px rgba(245, 71, 73, 0.4);
   opacity: 0;
   transition: opacity 0.5s ease;
+  top: 0;
 }
 @media only screen and (max-width: 1024px) {
   .hero .swiper .hero__slide__txt {
@@ -331,7 +332,7 @@ header.active {
   height: 15px;
 }
 .hero .swiper .swiper-pagination-bullet-active {
-  background-color: #f54749;
+  background-color: #702791;;
 }
 @media only screen and (max-width: 600px) {
   .hero .swiper .swiper-pagination-bullet {
@@ -445,7 +446,7 @@ header.active {
   }
 }
 .about__info__title, .about__info__description, .about__info__btn {
-  margin-top: 3rem;
+  margin-top: 20px;
 }
 @media only screen and (max-width: 1024px) {
   .about__info__btn {
